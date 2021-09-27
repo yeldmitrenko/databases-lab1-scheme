@@ -1,0 +1,87 @@
+INSERT INTO `dmitrenko`.`security` (`login`, `password`) VALUES ('2001pavlo', 'thvr5');
+INSERT INTO `dmitrenko`.`security` (`login`, `password`) VALUES ('alex14092', 'lfbbm');
+INSERT INTO `dmitrenko`.`security` (`login`, `password`) VALUES ('country32', 'thtrh');
+INSERT INTO `dmitrenko`.`security` (`login`, `password`) VALUES ('light454', '5754vht');
+INSERT INTO `dmitrenko`.`security` (`login`, `password`) VALUES ('main234', 'jv563v');
+INSERT INTO `dmitrenko`.`security` (`login`, `password`) VALUES ('marksum234', 'trhhht');
+INSERT INTO `dmitrenko`.`security` (`login`, `password`) VALUES ('moon5556', 'ryvr356');
+INSERT INTO `dmitrenko`.`security` (`login`, `password`) VALUES ('olena1208', 't4gds');
+INSERT INTO `dmitrenko`.`security` (`login`, `password`) VALUES ('sea120393', '2353x');
+INSERT INTO `dmitrenko`.`security` (`login`, `password`) VALUES ('vlad124', 'jkrrg');
+
+INSERT INTO `dmitrenko`.`payment` (`card_number`, `expiration_date`, `cvc`, `name`) VALUES ('4856385546', '3436', '463', 'Vitaliy');
+INSERT INTO `dmitrenko`.`payment` (`card_number`, `expiration_date`, `cvc`, `name`) VALUES ('2975935836', '6435', '054', 'Svitlana');
+INSERT INTO `dmitrenko`.`payment` (`card_number`, `expiration_date`, `cvc`, `name`) VALUES ('543974473', '7747', '123', 'Taras');
+INSERT INTO `dmitrenko`.`payment` (`card_number`, `expiration_date`, `cvc`, `name`) VALUES ('4597357945', '4868', '342', 'Polina');
+INSERT INTO `dmitrenko`.`payment` (`card_number`, `expiration_date`, `cvc`, `name`) VALUES ('5285785785', '4785', '463', 'Nazar');
+INSERT INTO `dmitrenko`.`payment` (`card_number`, `expiration_date`, `cvc`, `name`) VALUES ('45862583563', '2695', '648', 'Mariya');
+INSERT INTO `dmitrenko`.`payment` (`card_number`, `expiration_date`, `cvc`, `name`) VALUES ('53593575733', '9532', '368', 'Pavlo');
+INSERT INTO `dmitrenko`.`payment` (`card_number`, `expiration_date`, `cvc`, `name`) VALUES ('38579285572', '5096', '972', 'Anastasiya');
+INSERT INTO `dmitrenko`.`payment` (`card_number`, `expiration_date`, `cvc`, `name`) VALUES ('59729759535', '3575', '082', 'Anna');
+INSERT INTO `dmitrenko`.`payment` (`card_number`, `expiration_date`, `cvc`, `name`) VALUES ('28952897574', '4930', '580', 'Maks');
+
+INSERT INTO `dmitrenko`.`game` (`name`, `price`, `category`) VALUES ('Kingdom: New Lands', '15$', 'Arcade');
+INSERT INTO `dmitrenko`.`game` (`name`, `price`, `category`) VALUES ('League of Legends', 'Free', 'Arcade');
+INSERT INTO `dmitrenko`.`game` (`name`, `price`, `category`) VALUES ('Among Us', '5$', 'Party');
+INSERT INTO `dmitrenko`.`game` (`name`, `price`, `category`) VALUES ('Minion Masters', 'Free', 'Arcade');
+INSERT INTO `dmitrenko`.`game` (`name`, `price`, `category`) VALUES ('Rocket League', '25$', 'Arcade');
+INSERT INTO `dmitrenko`.`game` (`name`, `price`, `category`) VALUES ('Pokémon GO', 'Free', 'Arcade');
+INSERT INTO `dmitrenko`.`game` (`name`, `price`, `category`) VALUES ('Valorant', 'Free', 'Strategy');
+INSERT INTO `dmitrenko`.`game` (`name`, `price`, `category`) VALUES ('Karuta', '12$', 'Cards');
+INSERT INTO `dmitrenko`.`game` (`name`, `price`, `category`) VALUES ('King of the Hat', 'Free', 'Party');
+INSERT INTO `dmitrenko`.`game` (`name`, `price`, `category`) VALUES ('Last Year: The Nightmare', '10$', 'Horror');
+
+INSERT INTO `dmitrenko`.`game_chat` (`name`, `game_id`) VALUES ('League of Legends', '2');
+INSERT INTO `dmitrenko`.`game_chat` (`name`, `game_id`) VALUES ('Among Us', '3');
+INSERT INTO `dmitrenko`.`game_chat` (`name`, `game_id`) VALUES ('Minion Masters', '4');
+INSERT INTO `dmitrenko`.`game_chat` (`name`, `game_id`) VALUES ('Rocket League', '5');
+INSERT INTO `dmitrenko`.`game_chat` (`name`, `game_id`) VALUES ('Pokémon GO', '6');
+INSERT INTO `dmitrenko`.`game_chat` (`name`, `game_id`) VALUES ('Valorant', '7');
+INSERT INTO `dmitrenko`.`game_chat` (`name`, `game_id`) VALUES ('Karuta  ', '8');
+INSERT INTO `dmitrenko`.`game_chat` (`name`, `game_id`) VALUES ('King of the Hat', '9');
+INSERT INTO `dmitrenko`.`game_chat` (`name`, `game_id`) VALUES ('Last Year: The Nightmare', '10');
+INSERT INTO `dmitrenko`.`game_chat` (`name`, `game_id`) VALUES ('Kingdom: New Lands', '1');
+
+INSERT INTO `dmitrenko`.`audio` (`duration`, `game_chat_id`) VALUES ('12', '2');
+INSERT INTO `dmitrenko`.`audio` (`duration`, `game_chat_id`) VALUES ('23', '3');
+INSERT INTO `dmitrenko`.`audio` (`duration`, `game_chat_id`) VALUES ('12', '4');
+INSERT INTO `dmitrenko`.`audio` (`duration`, `game_chat_id`) VALUES ('45', '5');
+INSERT INTO `dmitrenko`.`audio` (`duration`, `game_chat_id`) VALUES ('34', '6');
+INSERT INTO `dmitrenko`.`audio` (`duration`, `game_chat_id`) VALUES ('52', '7');
+INSERT INTO `dmitrenko`.`audio` (`duration`, `game_chat_id`) VALUES ('26', '8');
+INSERT INTO `dmitrenko`.`audio` (`duration`, `game_chat_id`) VALUES ('34', '9');
+INSERT INTO `dmitrenko`.`audio` (`duration`, `game_chat_id`) VALUES ('27', '10');
+INSERT INTO `dmitrenko`.`audio` (`duration`, `game_chat_id`) VALUES ('3', '1');
+
+INSERT INTO `dmitrenko`.`media` (`name`, `size`, `date`, `game_chat_id`) VALUES ('league', '4МБ', '2021-09-23', '2');
+INSERT INTO `dmitrenko`.`media` (`name`, `size`, `date`, `game_chat_id`) VALUES ('among us', '3.8МБ', '2021-03-12', '3');
+INSERT INTO `dmitrenko`.`media` (`name`, `size`, `date`, `game_chat_id`) VALUES ('minion', '12МБ', '2021-03-15', '4');
+INSERT INTO `dmitrenko`.`media` (`name`, `size`, `date`, `game_chat_id`) VALUES ('rocket', '5МБ', '2021-08-25', '5');
+INSERT INTO `dmitrenko`.`media` (`name`, `size`, `date`, `game_chat_id`) VALUES ('pokemon', '5.5МБ', '2021-08-24', '6');
+INSERT INTO `dmitrenko`.`media` (`name`, `size`, `date`, `game_chat_id`) VALUES ('valorant', '6МБ', '2021-04-19', '7');
+INSERT INTO `dmitrenko`.`media` (`name`, `size`, `date`, `game_chat_id`) VALUES ('karuta', '4.9МБ', '2021-11-28', '8');
+INSERT INTO `dmitrenko`.`media` (`name`, `size`, `date`, `game_chat_id`) VALUES ('king', '3.7МБ', '2021-02-19', '9');
+INSERT INTO `dmitrenko`.`media` (`name`, `size`, `date`, `game_chat_id`) VALUES ('last nigtmare', '5МБ', '2021-07-12', '10');
+INSERT INTO `dmitrenko`.`media` (`name`, `size`, `date`, `game_chat_id`) VALUES ('kingdom', '7МБ', '2021-09-17', '1');
+
+INSERT INTO `dmitrenko`.`message` (`date`, `message`, `game_chat_id`) VALUES ('2021-09-12', 'league', '2');
+INSERT INTO `dmitrenko`.`message` (`date`, `message`, `game_chat_id`) VALUES ('2021-11-14', 'among us', '3');
+INSERT INTO `dmitrenko`.`message` (`date`, `message`, `game_chat_id`) VALUES ('2021-02-14', 'minion masters', '4');
+INSERT INTO `dmitrenko`.`message` (`date`, `message`, `game_chat_id`) VALUES ('2021-02-14', 'rocket league', '5');
+INSERT INTO `dmitrenko`.`message` (`date`, `message`, `game_chat_id`) VALUES ('2021-03-14', 'pokemon', '6');
+INSERT INTO `dmitrenko`.`message` (`date`, `message`, `game_chat_id`) VALUES ('2021-06-12', 'valorant', '7');
+INSERT INTO `dmitrenko`.`message` (`date`, `message`, `game_chat_id`) VALUES ('2021-07-23', 'karuta', '8');
+INSERT INTO `dmitrenko`.`message` (`date`, `message`, `game_chat_id`) VALUES ('2021-05-09', 'hat king', '9');
+INSERT INTO `dmitrenko`.`message` (`date`, `message`, `game_chat_id`) VALUES ('2021-03-23', 'last year', '10');
+INSERT INTO `dmitrenko`.`message` (`date`, `message`, `game_chat_id`) VALUES ('2021-04-02', 'new lands of kingdom', '1');
+
+INSERT INTO `dmitrenko`.`user` (`name`, `username`, `phone_number`, `game_chat_id`, `payment_id`, `security_login`) VALUES ('Vitaliy', 'vitak', '+380956474358', '1', '1', 'alex14092');
+INSERT INTO `dmitrenko`.`user` (`name`, `username`, `phone_number`, `game_chat_id`, `payment_id`, `security_login`) VALUES ('Svitlana', 'sveta', '+380689376238', '2', '2', 'country32');
+INSERT INTO `dmitrenko`.`user` (`name`, `username`, `phone_number`, `game_chat_id`, `payment_id`, `security_login`) VALUES ('Taras', 'taraas', '+380273846283', '3', '3', 'light454');
+INSERT INTO `dmitrenko`.`user` (`name`, `username`, `phone_number`, `game_chat_id`, `payment_id`, `security_login`) VALUES ('Polina', 'ppolina', '0982428479', '4', '4', 'main234');
+INSERT INTO `dmitrenko`.`user` (`name`, `username`, `phone_number`, `game_chat_id`, `payment_id`, `security_login`) VALUES ('Nazar', 'nnazar', '0973742846', '5', '5', 'moon5556');
+INSERT INTO `dmitrenko`.`user` (`name`, `username`, `phone_number`, `game_chat_id`, `payment_id`, `security_login`) VALUES ('Mariya', 'mariyaa', '0953286373', '6', '6', 'sea120393');
+INSERT INTO `dmitrenko`.`user` (`name`, `username`, `phone_number`, `game_chat_id`, `payment_id`, `security_login`) VALUES ('Pavlo', 'pavvlo', '0662829476', '7', '7', '2001pavlo');
+INSERT INTO `dmitrenko`.`user` (`name`, `username`, `phone_number`, `game_chat_id`, `payment_id`, `security_login`) VALUES ('Anastasia', 'nastya', '+80968373883', '8', '8', 'vlad124');
+INSERT INTO `dmitrenko`.`user` (`name`, `username`, `phone_number`, `game_chat_id`, `payment_id`, `security_login`) VALUES ('Anna', 'annaa', '0663439827', '9', '9', 'olena1208');
+INSERT INTO `dmitrenko`.`user` (`name`, `username`, `phone_number`, `game_chat_id`, `payment_id`, `security_login`) VALUES ('Maks', 'maksim', '0983736273', '10', '10', 'marksum234');
